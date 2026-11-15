@@ -4,37 +4,37 @@ Name:
 
 ## Baseline (home.html before any changes)
 
-| Check | Result |
-|---|---|
-| Lighthouse accessibility score | |
-| Lighthouse failed audits | |
-| WAVE errors | |
-| WAVE contrast errors | |
-| WAVE alerts | |
-| HTML validator errors | |
-| Keyboard test (notes) | |
-| 200% zoom and 320px test (notes) | |
+| Check                            | Result |
+| -------------------------------- | ------ |
+| Lighthouse accessibility score   | 17     |
+| Lighthouse failed audits         |  3     |
+| WAVE errors                      |  1     |
+| WAVE contrast errors             |  6     |
+| WAVE alerts                      |  9     |
+| HTML validator errors            |  5     |
+| Keyboard test (notes)            |        |
+| 200% zoom and 320px test (notes) |        |
 
 Contrast pairs checked:
 
 | Text color | Background color | Ratio | Pass or fail (4.5:1 normal, 3:1 large) |
-|---|---|---|---|
-| | | | |
-| | | | |
-| | | | |
+| ---------- | ---------------- | ----- | -------------------------------------- |
+|            |                  |       |                                        |
+|            |                  |       |                                        |
+|            |                  |       |                                        |
 
 ## Problems found on home.html (at least 8)
 
-| # | What I saw (evidence) | Tool or test that showed it | POUR principle | WCAG idea | Severity | Planned fix |
-|---|---|---|---|---|---|---|
-| 1 | | | | | | |
-| 2 | | | | | | |
-| 3 | | | | | | |
-| 4 | | | | | | |
-| 5 | | | | | | |
-| 6 | | | | | | |
-| 7 | | | | | | |
-| 8 | | | | | | |
+| #   | What I saw (evidence)    | Tool or test that showed it | POUR principle | WCAG idea | Severity | Planned fix |
+| --- | ---------------------    | --------------------------- | -------------- | --------- | -------- | ----------- |
+| 1   | Img folder missing Logo  |                             |                |           |          |             |
+| 2   |                          |                             |                |           |          |             |
+| 3   |                          |                             |                |           |          |             |
+| 4   |                          |                             |                |           |          |             |
+| 5   |                          |                             |                |           |          |             |
+| 6   |                          |                             |                |           |          |             |
+| 7   |                          |                             |                |           |          |             |
+| 8   |                          |                             |                |           |          |             |
 
 ## ARIA notes (Part 2, step 13)
 
@@ -50,14 +50,14 @@ Task scenarios:
 
 Findings (at least 6, at least 5 different heuristics):
 
-| # | Task | Evidence (what happened) | Heuristic | Severity | Change to test |
-|---|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
+| #   | Task | Evidence (what happened) | Heuristic | Severity | Change to test |
+| --- | ---- | ------------------------ | --------- | -------- | -------------- |
+| 1   |      |                          |           |          |                |
+| 2   |      |                          |           |          |                |
+| 3   |      |                          |           |          |                |
+| 4   |      |                          |           |          |                |
+| 5   |      |                          |           |          |                |
+| 6   |      |                          |           |          |                |
 
 Design checklist for this page:
 
@@ -68,30 +68,30 @@ Design checklist for this page:
 ## Retest of services.html
 
 | Task | Before (result) | After (result) |
-|---|---|---|
-| A | | |
-| B | | |
-| C | | |
+| ---- | --------------- | -------------- |
+| A    |                 |                |
+| B    |                 |                |
+| C    |                 |                |
 
 ## Verification of book.html
 
-| Check | Result |
-|---|---|
-| HTML validator errors | |
-| Lighthouse accessibility score | |
-| Keyboard test (notes) | |
-| DevTools check of the status message container (what attribute did you see?) | |
+| Check                                                                        | Result |
+| ---------------------------------------------------------------------------- | ------ |
+| HTML validator errors                                                        |        |
+| Lighthouse accessibility score                                               |        |
+| Keyboard test (notes)                                                        |        |
+| DevTools check of the status message container (what attribute did you see?) |        |
 
 ## After (home.html final)
 
-| Check | Before | After |
-|---|---|---|
-| Lighthouse accessibility score | | |
-| WAVE errors | | |
-| WAVE contrast errors | | |
-| HTML validator errors | | |
-| Keyboard test | | |
-| 200% zoom and 320px test | | |
+| Check                          | Before | After |
+| ------------------------------ | ------ | ----- |
+| Lighthouse accessibility score |        |       |
+| WAVE errors                    |        |       |
+| WAVE contrast errors           |        |       |
+| HTML validator errors          |        |       |
+| Keyboard test                  |        |       |
+| 200% zoom and 320px test       |        |       |
 
 ## Before shipping checklist (all three pages)
 
@@ -102,4 +102,3 @@ Design checklist for this page:
 - [ ] Feedback is meaningful (errors and success). Proof:
 
 ## One thing I had to check by hand that the tools did not catch
-
