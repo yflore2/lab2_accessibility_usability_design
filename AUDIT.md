@@ -34,7 +34,7 @@ Contrast pairs checked:
 | 5   | Grey text is too small      |   Lighthouse                |Perceivable                |           |          |             |
 | 6   | h1 missing                  |  WAVE                       |Perceivable     |           |          |             |
 | 7   | Tab Order                   | WAVE                        |Understandable      |           |          |             |
-| 8   |Page not responsive          | Zoomed and resized page        |Operable         |           |          |             |
+| 8   |Page not responsive          | Zoomed and resized page     |Operable         |           |          |             |
 
 ## ARIA notes (Part 2, step 13)
 
