@@ -12,16 +12,16 @@ Name:
 | WAVE contrast errors             |  6     |
 | WAVE alerts                      |  9     |
 | HTML validator errors            |  5     |
-| Keyboard test (notes)            |        |
-| 200% zoom and 320px test (notes) |        |
+| Keyboard test (notes)            |  Can tab but its not clearly visible that I am tabbing.|
+| 200% zoom and 320px test (notes) |  Text does get cut off, its not responsive.            |
 
 Contrast pairs checked:
 
 | Text color | Background color | Ratio | Pass or fail (4.5:1 normal, 3:1 large) |
 | ---------- | ---------------- | ----- | -------------------------------------- |
-|            |                  |       |                                        |
-|            |                  |       |                                        |
-|            |                  |       |                                        |
+| ffffff     |  F5A25D          | 2.05:1| Fail                                   |
+| 8ab4ff     |  ffffff          | 2.08:1| Fail                                   |
+| b388d6     |  ffffff          | 2.83:1| Fail                                       |
 
 ## Problems found on home.html (at least 8)
 
