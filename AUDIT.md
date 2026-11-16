@@ -21,20 +21,20 @@ Contrast pairs checked:
 | ---------- | ---------------- | ----- | -------------------------------------- |
 | ffffff     |  F5A25D          | 2.05:1| Fail                                   |
 | 8ab4ff     |  ffffff          | 2.08:1| Fail                                   |
-| b388d6     |  ffffff          | 2.83:1| Fail                                       |
+| b388d6     |  ffffff          | 2.83:1| Fail                                   |
 
 ## Problems found on home.html (at least 8)
 
-| #   | What I saw (evidence)    | Tool or test that showed it | POUR principle | WCAG idea | Severity | Planned fix |
-| --- | ---------------------    | --------------------------- | -------------- | --------- | -------- | ----------- |
-| 1   | Img folder missing Logo  |                             |                |           |          |             |
-| 2   |                          |                             |                |           |          |             |
-| 3   |                          |                             |                |           |          |             |
-| 4   |                          |                             |                |           |          |             |
-| 5   |                          |                             |                |           |          |             |
-| 6   |                          |                             |                |           |          |             |
-| 7   |                          |                             |                |           |          |             |
-| 8   |                          |                             |                |           |          |             |
+| #   | What I saw (evidence)       | Tool or test that showed it | POUR principle | WCAG idea | Severity | Planned fix |
+| --- | ---------------------       | --------------------------- | -------------- | --------- | -------- | ----------- |
+| 1   | Img folder missing Logo     |  Opened web page to see     |Perceivable     |           |          |             |
+| 2   | Nothing listed after Call us|  Opened web page to see     |Perceivable    |           |          |             |
+| 3   | Cannot tab to CTA           | WAVE                        |Operable        |           |          |             |
+| 4   | Grey color is hard to see on page |  WebAIM               |Perceivable                |           |          |             |
+| 5   | Grey text is too small      |   Lighthouse                |Perceivable                |           |          |             |
+| 6   | h1 missing                  |  WAVE                       |Perceivable     |           |          |             |
+| 7   | Tab Order                   | WAVE                        |Understandable      |           |          |             |
+| 8   |Page not responsive          | Zoomed and resized page        |Operable         |           |          |             |
 
 ## ARIA notes (Part 2, step 13)
 
