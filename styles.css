@@ -15,7 +15,8 @@ a {
 	text-decoration: none;
 }
 
-a:focus {
+a:focus,
+button:focus {
 	outline: none;
 }
 
@@ -80,13 +81,13 @@ main {
 	font-size: 10px;
 }
 
-button {
+.btn {
 	display: inline-block;
 	padding: 10px 18px;
 	background: #f5a25d;
 	color: #414040;
 	border-radius: 6px;
-	cursor: pointer;
+	font-weight: bold;
 }
 
 .paws {
