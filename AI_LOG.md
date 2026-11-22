@@ -1,6 +1,6 @@
 # AI LOG
 
-Name:
+Name: Yvonne Flores-Garcia
 
 ## My AI setup
 
@@ -13,7 +13,7 @@ Name:
 
 | # | Where I used it (file or part) | My prompt | What the AI returned (short summary) | What I did (kept, changed, rejected) and why |
 |---|---|---|---|---|
-| 1 | | | | |
+| 1 |  | | | |
 | 2 | | | | |
 | 3 | | | | |
 | 4 | | | | |
